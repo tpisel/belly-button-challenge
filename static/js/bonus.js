@@ -7,7 +7,7 @@ function viz_gauge(metadata_row) {
         type: "indicator",
         mode: "gauge+number",
         gauge: {
-            axis: { range: [null, 9], tickwidth: 1, tickcolor: "darkblue" },
+            axis: { range: [null, 9], tickwidth: 1, tickcolor: "rgba(27,98,165,0.6)" },
             bar: { color: "blue" },
             bgcolor: "white",
             borderwidth: 2,
